@@ -9,7 +9,7 @@ if __name__ == '__main__':
     vault_name = 'QNAPVault'
     account_id = '0'
 
-    with open("/Users/b7e/amazon/output.json", "r") as write_file:
+    with open("/Users/BOOF/amazon/output.json", "r") as write_file:
         data = json.load(write_file)
 
     archive_list = data['ArchiveList']
