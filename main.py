@@ -7,7 +7,7 @@ if __name__ == '__main__':
 
     input_file_name = 'output.json'
     vault_name = 'QNAPVault'
-    account_id = '947379795640'
+    account_id = '0'
 
     with open("/Users/b7e/amazon/output.json", "r") as write_file:
         data = json.load(write_file)
